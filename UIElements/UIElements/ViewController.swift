@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var cityName: UITextField!
+    
+    
+    @IBAction func jfhjhgg(sender: UITextField) {
+       // cityName.text = "yes"
+        sender.text = "essfff"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
